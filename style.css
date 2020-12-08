@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 1rem;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+#img-div {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+#image {
+  max-width: 80%;
+  padding: 0.5rem;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 1rem;
+  max-width: 80%;
+}
+
+#tribute-info {
+  padding: 1rem;
+}
+
+#tribute-timeline {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#list {
+  padding: 1rem;
+}
+
+#list li {
+  margin: 1rem;
+  justify-content: center;
+}
+
+#testimony {
+  max-width: 80%;
+  margin: auto;
+}
+#testimony p {
+  margin: 0.5rem;
+}
+
+#tribute-end {
+  text-align: center;
+  font-weight: 800;
+  padding: 2rem;
+}
